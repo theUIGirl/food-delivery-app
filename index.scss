@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0.75em 0;
+  background: #e6e6fa;
+  background: #d3e4ed;
+  padding: 0 0.5rem;
+  width: auto;
+}
+.logo-container {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  flex-direction: row;
+  position: relative;
+}
+
+.logo-container > img:nth-child(2) {
+  width: 65px;
+  align-self: flex-start;
+  margin-left: -24px;
+  margin-top: -4px;
+}
+.nav-items{display: flex;}
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 0.5em;
+}
+.restaurant-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.restaurant-card {
+  width: 250px;
+  // height: 300px;
+  padding: 20px 20px 57px;
+  border: 1px solid #5e5e5e;
+  contain: content;
+  position: relative;
+  margin: 0 0.5rem 0.5rem;
+  img {
+    background: #eef0f5;
+    width: 254px;
+    height: 160px;
+    position: relative;
+  }
+  .restaurant-name {
+    font-size: 17px;
+    font-weight: 500;
+    word-break: break-word;
+    margin-bottom: 0;
+  }
+  .cuisine {
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+  .ratings {
+    background-color: chartreuse;
+    width: 50px;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+  }
+}
