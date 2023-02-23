@@ -70,4 +70,23 @@ body {
     margin-top: 0.75rem;
     margin-bottom: 0;
   }
+
+  .shimmer-block{
+    background-color: #c8c8c8;
+    height: 15px;
+    margin: 1rem 0;
+
+    &:first-child{
+      height: 200px;
+    }
+
+    &:nth-child(2){
+      width: 100px;
+    }
+
+    &:nth-child(3){
+      width: 70px;
+    }
+  }
 }
+
